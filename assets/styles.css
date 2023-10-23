@@ -98,7 +98,16 @@
 .item.checked .check-icon{
     transform: scale(1);
 }
+.main-card:hover{
+    background: #137BDE;
+    color: white;
+}
 
+
+.main-card:hover .card-header{
+    background: white;
+    color: #137BDE;
+}
 .accordion-collapse.show{
     background: #ebebeb;
 }
