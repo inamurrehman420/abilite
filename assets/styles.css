@@ -1,0 +1,120 @@
+
+body{
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-header {
+    text-align: center;
+    margin: 40px 0px 40px;
+}
+
+.section-header h3 {
+    font-size: 22px;
+    color: #137BDE;
+    text-transform: uppercase;
+}
+
+.section-header h2 {
+    font-size: 32px;
+    color: #292929;
+    position: relative;
+}
+
+.section-header h2:after {
+    content: "";
+    height: 3px;
+    max-width: 100%;
+    width: 120px;
+    background: #2196f3;
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    right: 0px;
+    margin: 0 auto;
+}
+
+.faq-section .accordion-collapse {
+    border: 0;
+}
+
+.faq-section .accordion-button {
+    padding: 15px 0px 15px;
+    border: 0;
+    color: #333333;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.faq-section .accordion-button:focus {
+    box-shadow: none;
+}
+
+.faq-section .accordion-button:not(.collapsed) {
+    background: none;
+    color: #1b6ce5;
+}
+
+.faq-section .accordion-body {
+    padding: 15px 0px 15px;
+}
+
+.accordion-item {
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.accordion-button {
+    background-color: #f8f9fa;
+    color: #495057;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.accordion-button:hover {
+    background-color: #e2e6ea;
+}
+
+.accordion-body {
+    border-top: 1px solid #dee2e6;
+    padding: 1rem;
+}
+a{
+    text-decoration: none;
+}
+th {
+    background-color: #f2f2f2 !important;
+    color: #0a3622 !important;
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #e2e6ea;
+}
+
+.table th,
+.table td {
+    border-top: 1px solid #dee2e6;
+    padding: 1rem;
+}
+
+.bg-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.text-white {
+    color: #fff;
+}
