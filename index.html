@@ -115,7 +115,7 @@
 
                             </div>
                             <div class="col-lg-4">
-                                <a href="#">
+                                <a class="w-100 "  data-bs-toggle="modal" data-bs-target="#project" type="button">
                                     <div class="card border main-card shadow rounded">
                                         <!-- Icon on top -->
                                         <div class="card-header  text-center py-3" style="background: #577384 !important;">
@@ -610,6 +610,117 @@
             </div>
         </div>
 
+        <!-- audit -->
+        <div class="modal fade" id="project" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content" style="height: 90vh; overflow: auto;">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5 fw-bold px-4 text-primary" id="project1">Business Process</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body px-4 pt-3 pb-5">
+
+                        <div class="row mb-3">
+                            <div class="col-lg-6">
+                                <label>Select Process</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>List of Department</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-6">
+                                <label>Select Sub Process</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>List of Department</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="accordion accordion-flush" id="faqlist3">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed px-3" data-bs-target="#faq-content-9" data-bs-toggle="collapse"
+                                                    type="button">
+                                                Set Meeting Time
+                                            </button>
+                                        </h2>
+                                        <div class="accordion-collapse collapse" data-bs-parent="#faqlist1" id="faq-content-9">
+                                            <div class="accordion-body px-3">
+
+                                                <div class="row mb-3">
+                                                    <div class="col-lg-6">
+                                                        <label>Select Department</label>
+                                                        <select class="form-select" aria-label="Default select example">
+                                                            <option selected>List of Department</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <label class="w-100">Meeting Date</label>
+                                                        <input class="form-control w-100" placeholder="Select Date" type="date"/>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-6">
+
+                                                        <label class="w-100">From</label>
+                                                        <input class="form-control w-100" placeholder="Select Date" type="time"/>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <label class="w-100">To</label>
+                                                        <input class="form-control w-100" placeholder="Select Date" type="time"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed px-3" data-bs-target="#faq-content-10" data-bs-toggle="collapse"
+                                                    type="button">
+                                                Document Minutes of Meeting
+                                            </button>
+                                        </h2>
+                                        <div class="accordion-collapse collapse" data-bs-parent="#faqlist1" id="faq-content-10">
+                                            <div class="accordion-body px-3">
+                                                <div class="mb-3">
+                                                    <label for="exampleFormControlTextarea1" class="form-label">Rich text field to document the meeting of minutes</label>
+                                                    <textarea class="form-control" placeholder="Enter Here" id="textareamain" rows="3"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+
+                        <button class="btn btn-labeled btn-primary px-3 shadow" data-bs-dismiss="modal" type="button">
+                            <span class="btn-label me-2"><i class="fa fa-check-circle"></i></span>Submit
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
