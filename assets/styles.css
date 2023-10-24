@@ -85,6 +85,13 @@
     border: 1.5px solid #c0c0c0;
     transition: all 0.3s ease-in-out;
 }
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #53758B;
+    outline: 0;
+    box-shadow: none !important;
+}
 .item.checked .checkbox{
     background-color: rgb(91, 73, 255);
     border-color: rgb(91, 73, 255);
