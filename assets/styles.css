@@ -99,14 +99,16 @@
     transform: scale(1);
 }
 .main-card:hover{
-    background: #137BDE;
+    background: #0A7386;
     color: white;
 }
-
+.text-primary{
+    color: #53758B !important;
+}
 
 .main-card:hover .card-header{
     background: white;
-    color: #137BDE;
+    color: #0A7386;
 }
 .accordion-collapse.show{
     background: #ebebeb;
@@ -129,7 +131,7 @@ form {
 }
 .file-upload label{
     display: inline-block;
-    background-color: #137BDE;
+    background-color: #0A7386;
     color: white;
     padding: 0.5rem 1rem;
     font-family: sans-serif;
@@ -147,7 +149,7 @@ form {
 
 .section-header h3 {
     font-size: 22px;
-    color: #137BDE;
+    color: #53758B;
     text-transform: uppercase;
 }
 
