@@ -114,7 +114,6 @@
     background: #ebebeb;
 }
 body{
-    font-family: 'Arimo', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 #output {
@@ -168,7 +167,7 @@ form {
     position: absolute;
     bottom: -25px;
     left: 0;
-    right: 0px;
+    right: 0;
     margin: 0 auto;
 }
 
